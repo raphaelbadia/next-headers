@@ -24,7 +24,6 @@ export default function Page() {
         </a>{" "}
         to view it returned from the middleware.
       </p>
-
       <form action={addCookie}>
         <input
           name="cookie_name"
