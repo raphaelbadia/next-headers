@@ -1,6 +1,6 @@
 {
   "name": "next-headers",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -17,10 +17,10 @@
   },
   "devDependencies": {
     "@nextheaders/tsconfig": "*",
-    "eslint": "^7.32.0",
-    "eslint-config-nextheaders": "*",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-nextheaders": "*",
     "react": "^17.0.2",
     "tsup": "^5.10.1",
     "typescript": "^4.5.3"
