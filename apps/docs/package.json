@@ -1,5 +1,5 @@
 {
-  "name": "@acme/docs",
+  "name": "@nextheaders/docs",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -10,18 +10,18 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf .next"
   },
   "dependencies": {
-    "@acme/core": "*",
-    "@acme/utils": "*",
+    "@nextheaders/core": "*",
+    "@nextheaders/utils": "*",
     "next": "^13.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@acme/tsconfig": "*",
+    "@nextheaders/tsconfig": "*",
     "@types/node": "^17.0.12",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
-    "eslint-config-acme": "*",
+    "eslint-config-nextheaders": "*",
     "typescript": "^4.5.4"
   }
 }
