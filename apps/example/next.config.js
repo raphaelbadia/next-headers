@@ -3,4 +3,5 @@ module.exports = {
   experimental: {
     serverActions: true,
   },
+  transpilePackages: ["next-headers"],
 };
