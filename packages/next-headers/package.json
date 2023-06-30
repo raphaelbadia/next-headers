@@ -14,15 +14,19 @@
     "build": "tsup src/index.ts --format esm,cjs --dts --external next",
     "dev": "tsup src/index.ts --format esm,cjs --watch --dts --external next",
     "lint": "eslint \"src/**/*.ts*\"",
-    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
+    "test": "jest --silent=false"
   },
   "devDependencies": {
     "@nextheaders/tsconfig": "*",
+    "@types/jest": "^29.5.2",
     "eslint": "^7.32.0",
     "eslint-config-nextheaders": "*",
+    "jest": "^29.5.0",
     "next": "^13.0.0",
+    "ts-jest": "^29.1.1",
     "tsup": "^5.10.1",
-    "typescript": "^4.5.3"
+    "typescript": "^5.1.6"
   },
   "peerDependencies": {
     "next": "^13.0.0"
