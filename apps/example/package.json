@@ -5,13 +5,12 @@
   "scripts": {
     "build": "next build",
     "start": "next start ",
-    "dev": "next dev -p 3002",
+    "dev": "next dev",
     "lint": "next lint",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf .next"
   },
   "dependencies": {
-    "@nextheaders/core": "*",
-    "@nextheaders/utils": "*",
+    "next-headers": "*",
     "next": "^13.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

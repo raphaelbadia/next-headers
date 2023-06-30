@@ -18,7 +18,6 @@ This Turborepo includes the following:
 
 - `docs`: A placeholder documentation site powered by [Next.js](https://nextjs.org/)
 - `@nextheaders/core`: core React components
-- `@nextheaders/utils`: shared React utilities
 - `@nextheaders/tsconfig`: shared `tsconfig.json`s used throughout the monorepo
 - `eslint-config-nextheaders`: ESLint preset
 
@@ -39,14 +38,6 @@ This Turborepo has some additional tools already setup for you:
 - `yarn lint` - Lint all packages
 - `yarn changeset` - Generate a changeset
 - `yarn clean` - Clean up all `node_modules` and `dist` folders (runs each package's clean script)
-
-### Changing the npm organization scope
-
-The npm organization scope for this design system starter is `@nextheaders`. To change this, it's a bit manual at the moment, but you'll need to do the following:
-
-- Rename folders in `packages/*` to replace `nextheaders` with your desired scope
-- Search and replace `nextheaders` with your desired scope
-- Re-run `yarn install`
 
 ## Versioning and Publishing packages
 
