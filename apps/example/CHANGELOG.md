@@ -1,5 +1,13 @@
 # @nextheaders/docs
 
+## 0.0.4
+
+### Patch Changes
+
+- 2ea6924: Set the peer dep to \*
+- Updated dependencies [2ea6924]
+  - next-headers@0.0.4
+
 ## 0.0.3
 
 ### Patch Changes
