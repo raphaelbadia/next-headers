@@ -1,5 +1,11 @@
 # eslint-config-nextheaders
 
+## 0.0.5
+
+### Patch Changes
+
+- 5541892: Make the version starting at 13.4.4 because it didn't work on previous versions
+
 ## 0.0.4
 
 ### Patch Changes
