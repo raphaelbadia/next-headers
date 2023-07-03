@@ -8,6 +8,10 @@ A (very) tiny wrapper to allow you to use Next.js's `cookies()` and `headers()` 
 
 Next.js's `cookies()` and `headers()` functions are only available in app directory. This means that if you want to use them in your middleware, you need to pass the request object from your middleware to every function down the stream. This can get messy, especially if you have multiple layers of middlewares, or if you have shared logic between your middleware and server code.
 
+## Warning
+
+This plugin works only from next@13.4.4 ! If you are using an older version, please upgrade.
+
 ## Installation
 
 ### npm
